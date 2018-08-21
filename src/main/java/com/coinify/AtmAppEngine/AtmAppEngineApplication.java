@@ -119,7 +119,7 @@ public class AtmAppEngineApplication {
 	}
 
 	
-	protected List<Integer> FindDenomination(int amount, ArrayList<Integer> box1,ArrayList<Integer> box2, ArrayList<Integer> box3) {
+	private List<Integer> FindDenomination(int amount, ArrayList<Integer> box1,ArrayList<Integer> box2, ArrayList<Integer> box3) {
 		
 		
 		ArrayList<Integer> combinedList = mergeCombinations(box1,box2,box3);
